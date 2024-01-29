@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/fitnes-app/favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Energy Flow</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    
+    
+    <script type="module" crossorigin src="/fitnes-app/assets/vendor-cd480503.js"></script>
+    <script type="module" crossorigin src="/fitnes-app/assets/scrollTopBtn-b8ce822c.js"></script>
+    <link rel="stylesheet" href="/fitnes-app/assets/vendor-db400b5b.css">
+    <link rel="stylesheet" href="/fitnes-app/assets/scrollTopBtn-537d3fa4.css">
+  </head>
+  <body>
+    <header>
+      <div class="header-wrapper">
+  <div class="header-container container">
+    <a class="logo" href="./index.html">energy.flow</a>
+
+    <nav>
+      <ul class="nav-list">
+        <li>
+          <a class="nav-link" href="./index.html">Home</a>
+        </li>
+        <li>
+          <a class="nav-link" href="./page-2.html">Favorites</a>
+        </li>
+      </ul>
+    </nav>
+
+    <ul class="social-media-list">
+      <li>
+        <div class="togle-container">
+          <input type="checkbox" class="theme-toggle" id="theme-toggle">
+          <label for="theme-toggle"></label>
+        </div>
+      </li>
+      <li>
+        <a
+          class="social-media-link"
+          href="https://www.facebook.com/goITclub/"
+          target="_blank"
+        >
+          <svg class="social-media-icon" width="28" height="28">
+            <use href="/fitnes-app/assets/sprite-31c6263f.svg#icon-facebook"></use>
+          </svg>
+        </a>
+      </li>
+      <li>
+        <a
+          class="social-media-link"
+          href="https://www.instagram.com/goitclub/"
+          target="_blank"
+        >
+          <svg class="social-media-icon" width="28" height="28">
+            <use href="/fitnes-app/assets/sprite-31c6263f.svg#icon-instagram"></use>
+          </svg>
+        </a>
+      </li>
+      <li>
+        <a
+          class="social-media-link"
+          href="https://www.youtube.com/c/GoIT"
+          target="_blank"
+        >
+          <svg class="social-media-icon" width="28" height="28">
+            <use href="/fitnes-app/assets/sprite-31c6263f.svg#icon-youtube"></use>
+          </svg>
+        </a>
+      </li>
+    </ul>
+
+    <button class="burger-menu" type="button">
+      <svg class="burger-icon" width="32" height="16">
+        <use href="/fitnes-app/assets/sprite-31c6263f.svg#icon-burger"></use>
+      </svg>
+    </button>
+  </div>
+</div>
+
+<div class="mobile-menu-wrapper">
+  <div class="mobile-menu">
+    <div class="mobile-menu-container">
+      <a class="mobile-menu-logo" href="./index.html">energy.flow</a>
+      <button class="burger-menu-close" type="button">
+        <svg class="close-icon" width="28" height="28">
+          <use href="/fitnes-app/assets/sprite-31c6263f.svg#icon-close"></use>
+        </svg>
+      </button>
+    </div>
+
+    <nav>
+      <ul class="mobile-nav-list">
+        <li>
+          <a class="nav-link" href="./index.html">Home</a>
+        </li>
+        <li>
+          <a class="nav-link" href="./page-2.html">Favorites</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="togle-container">
+      <input type="checkbox" class="theme-toggle" id="mobile-theme-toggle">
+      <label for="mobile-theme-toggle"></label>
+    </div>
+    <ul class="mobile-social-media-list">
+      <li>
+        <a
+          class="social-media-link"
+          href="https://www.facebook.com/goITclub/"
+          target="_blank"
+        >
+          <svg class="social-media-icon" width="28" height="28">
+            <use href="/fitnes-app/assets/sprite-31c6263f.svg#icon-facebook"></use>
+          </svg>
+        </a>
+      </li>
+      <li>
+        <a
+          class="social-media-link"
+          href="https://www.instagram.com/goitclub/"
+          target="_blank"
+        >
+          <svg class="social-media-icon" width="28" height="28">
+            <use href="/fitnes-app/assets/sprite-31c6263f.svg#icon-instagram"></use>
+          </svg>
+        </a>
+      </li>
+      <li>
+        <a
+          class="social-media-link"
+          href="https://www.youtube.com/c/GoIT"
+          target="_blank"
+        >
+          <svg class="social-media-icon" width="28" height="28">
+            <use href="/fitnes-app/assets/sprite-31c6263f.svg#icon-youtube"></use>
+          </svg>
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>
+
+    </header>
+
+    <main>
+      <section class="section hero">
+    <div class="container hero-container">
+        <div class="hero-img-container">
+            <ul class="hero-list">
+                <li class="hero-list-item">#Sport</li>
+                <li class="hero-list-item">#Healthy</li>
+                <li class="hero-list-item">#Workout</li>
+                <li class="hero-list-item">#Diet</li>
+            </ul>
+        </div>
+        <div class="hero-text-container">
+            <h1 class="hero-title">Get <span>Body</span> in shape, Stay healthy</h1>
+            <p class="hero-text">Transform your physique and embrace a healthier lifestyle with our comprehensive
+                fitness
+                and nutrition support.</p>
+        </div>
+    </div>
+</section>
+      <section class="section quote">
+  <div class="container">
+    <div class="quote-container">
+  <svg class="quote-container-svg-human">
+    <use href="/fitnes-app/assets/sprite-31c6263f.svg#icon-human-quo"></use>
+  </svg>
+  <svg class="quote-container-svg-commas">
+    <use href="/fitnes-app/assets/sprite-31c6263f.svg#icon-quotes"></use>
+  </svg>
+  <h2 class="quote-container-title">Quote of the day</h2>
+  <p class="quote-container-text"></p>
+  <p class="quote-container-author"></p>
+</div>
+    <div class="quote-image"></div>
+  </div>
+</section>
+      <section class="exercises-page-section section">
+  <div class="container">
+    <div class="exercises-page-container">
+      <div class="exercises-page-title-container">
+        <h2 class="exercises-page-title">
+          Exercises <span class="slash is-hidden">/</span>
+        </h2>
+        <p class="exercises-subtitle is-hidden">Waist</p>
+      </div>
+      <div class="exercises-filter-container">
+        <ul class="buttons-filter-container">
+          <li>
+            <button class="active" data-filter="Muscles">Muscles</button>
+          </li>
+
+          <li>
+            <button data-filter="Body%20parts">Body parts</button>
+          </li>
+          <li>
+            <button data-filter="Equipment">Equipment</button>
+          </li>
+        </ul>
+        <form class="form-search-exercises is-hidden">
+          <div class="form-search-exercises-label">
+            <input
+              class="form-search-exercises-input"
+              type="search"
+              name="search"
+              autocomplete="off"
+              placeholder="Search"
+            />
+            <button class="search-exercises-btn">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="18"
+                height="18"
+                viewBox="0 0 18 18"
+                fill="none"
+              >
+                <path
+                  d="M8.25 14.25C11.5637 14.25 14.25 11.5637 14.25 8.25C14.25 4.93629 11.5637 2.25 8.25 2.25C4.93629 2.25 2.25 4.93629 2.25 8.25C2.25 11.5637 4.93629 14.25 8.25 14.25Z"
+                  stroke="#1B1B1B"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M15.7498 15.75L12.4873 12.4875"
+                  stroke="#1B1B1B"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </button>
+          </div>
+        </form>
+      </div>
+      <ul class="exercises-list"></ul>
+      <div class="pagination-exercises-box"></div>
+      <ul class="cards-workout-list is-hidden"></ul>
+      <div class="pagination-cards-workout-box"></div>
+    </div>
+  </div>
+</section>
+
+      <!-- <section class="exercises-page-section section">
+  <div class="container"> -->
+<!-- <div class="section-exercises-title">
+      <h2 class="exercises-title">Exercises</h2>
+      <h2 class="exercise-title visually-hidden">/</h2>
+      <h2 class="exercises-subtitle"></h2>
+    </div>
+
+    <div class="section-exercises-filters-search">
+      <ul class="list-filters">
+        <li class="list-filters-item">
+          <button class="btn-filter current-btn">Muscles</button>
+        </li>
+        <li class="list-filters-item">
+          <button class="btn-filter">Body parts</button>
+        </li>
+        <li class="list-filters-item">
+          <button class="btn-filter">Equipment</button>
+        </li>
+      </ul> -->
+
+<!-- <form class="form-search-exercises visually-hidden">
+                <div class="input-svg"><input
+                    type="text"
+                    class="form-search-exercises-input"
+                    name="search"
+                    autocomplete="on"
+                    placeholder="Search"
+                />
+                    <svg
+                    class="form-search-exercises-icon"
+                    width="18"
+                    height="18">
+                    <use href="../images/sprite.svg#icon-search"></use>
+                    </svg>
+                </div>
+                    
+            </form>
+    </div> -->
+
+<!-- <ul class="cards-workout-list">
+      <li class="card-workout-item"> -->
+<!--------- workout - rating - btn start -------->
+<!-- <div class="card-menu">
+          <div class="card-menu-box">
+            <div class="card-menu-workout">workout</div>
+            <div class="card-workout-rating">
+              <p class="card-workout-rating-text">4.0</p>
+              <svg class="card-workout-rating-icon" width="18" height="18">
+                <use href="../images/sprite.svg#icon-Star-1"></use>
+              </svg>
+            </div>
+          </div>
+
+          <button class="btn-start-workout" type="button">
+            Start
+            <svg class="card-workout-start-icon" width="16" height="16">
+              <use href="../images/sprite.svg#icon-arrow"></use>
+            </svg>
+          </button>
+        </div> -->
+
+<!--------- cards - workout - title -------->
+<!-- <div class="card-workout-title">
+          <div class="card-workout-title-icon-box">
+            <svg class="card-workout-title-icon" width="24" height="24">
+              <use href="../images/sprite.svg#icon-human"></use>
+            </svg>
+          </div>
+          <p class="card-title-text">Air bike</p>
+        </div> -->
+
+<!-- info about calories - body part - target -->
+<!-- <div class="card-workout-info">
+          <div class="card-workout-info-block">
+            <p class="card-workout-info-list">Burned calories:</p>
+            <p class="card-workout-info-data card-time">312 / 3 min</p>
+          </div>
+          <div class="card-workout-info-block">
+            <p class="card-workout-info-list">Body part:</p>
+            <p class="card-workout-info-data">Waist</p>
+          </div>
+          <div class="card-workout-info-block">
+            <p class="card-workout-info-list">Target:</p>
+            <p class="card-workout-info-data card-target">Abs</p>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+</section> -->
+
+      <section class="section info-section">
+  <div class="container info-container">
+    <picture>
+      <source
+        srcset="/fitnes-app/assets/section-three-5c8254fe.jpg 1x, /fitnes-app/assets/section-three@2-1c6ea592.jpg 2x"
+        media="(min-width: 1440px)"
+      />
+      <source
+        srcset="/fitnes-app/assets/section-three-b9026a6c.jpg 1x, /fitnes-app/assets/section-three@2-03c2bd50.jpg 2x"
+        media="(min-width: 768px)"
+      />
+      <source
+        srcset="/fitnes-app/assets/section-three-7ab814a1.jpg 1x, /fitnes-app/assets/section-three@2-463face3.jpg 2x"
+        media="(max-width: 375px)"
+      />
+      <img
+        class="info__img"
+        alt="fit confident woman"
+        src="/fitnes-app/assets/section-three-7ab814a1.jpg"
+        width="335"
+        height="269"
+      />
+    </picture>
+    <div class="info__content">
+      <span class="info__icon-wrapper">
+        <svg class="info__icon" width="20" height="20">
+          <use href="/fitnes-app/assets/sprite-31c6263f.svg#icon-dumbbell" />
+        </svg>
+      </span>
+      <div class="info__content-text">
+        <h2 class="info__title">110 min</h2>
+        <p class="info__subtitle">Daily norm of sports</p>
+        <p class="info__description">
+          The World Health Organization recommends at least 150 minutes of
+          moderate-intensity aerobic physical activity throughout the week for
+          adults aged 18-64. However, what happens if we adjust that number to
+          110 minutes every day?
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <button class="scroll-top-btn is-hidden" type="button">
+    <svg class="scroll-top-icon">
+        <use href="/fitnes-app/assets/sprite-31c6263f.svg#icon-arrow"> </use>
+    </svg>
+</button>
+    </main>
+
+    <footer>
+      <section class="section footer">
+  <div class="container">
+    <div class="footer-container">
+      <div class="foter-link-and-social-div">
+        <a class="footer-logo-link" href="index.html">energy.flow</a>
+        <ul class="footer-social-media-list">
+          <li class="footer-social-media-item">
+            <a
+              class="footer-social-media-link"
+              href="https://www.facebook.com/goITclub/"
+              target="_blank"
+            >
+              <svg class="footer-social-media-icon" width="20" height="20">
+                <use href="/fitnes-app/assets/sprite-31c6263f.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="footer-social-media-item">
+            <a
+              class="footer-social-media-link"
+              href="https://www.instagram.com/goitclub/"
+              target="_blank"
+              ><svg class="footer-social-media-icon" width="20" height="20">
+                <use href="/fitnes-app/assets/sprite-31c6263f.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="footer-social-media-item">
+            <a
+              class="footer-social-media-link"
+              href="https://www.youtube.com/c/GoIT"
+              target="_blank"
+              ><svg class="footer-social-media-icon" width="20" height="20">
+                <use href="/fitnes-app/assets/sprite-31c6263f.svg#icon-youtube"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="footer-subheader-and-form-div">
+        <h2 class="footer-subheader">
+          Transforming your
+          <span class="footer-subheader-accent">body</span> shape with us
+        </h2>
+        <form
+          class="footer-form"
+          action="https://energyflow.b.goit.study/api/subscription"
+          method="post"
+        >
+          <label class="footer-email-label" for="footer-email-input"
+            >Subscribe and learn about new exercises!</label
+          >
+          <input
+            type="email"
+            id="footer-email-input"
+            name="email"
+            placeholder="Email"
+            required
+            pattern="^[\w\-]+(\.[\w\-]+)*@([\w\-]+\.)+[a-zA-Z]{2,7}$"
+          />
+          <button class="footer-form-btn" type="submit">Send</button>
+        </form>
+      </div>
+      <div class="footer-text-div">
+        <p class="footer-text">Energy Flow. All rights reserved.</p>
+
+        <ul class="footer-links">
+          <li>
+            <button class="foter-privacy-policy" type="button">
+              Privacy Policy
+            </button>
+          </li>
+          <li>
+            <button class="footer-terms-of-service" type="button">
+              Terms of Service
+            </button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <div class="privacy-modal-overlay">
+  <div class="privacy">
+    <div class="privacy__header">
+      <div class="privacy__header-text">Privacy Policy</div>
+    </div>
+    <div class="privacy__content">
+      <h4>Protection of Personal Data</h4>
+      <p>
+        To safeguard your personal data, we have implemented a range of
+        protective measures that operate when entering, transmitting, or
+        handling your personal information.
+      </p>
+      <h4>Disclosure of Personal Information and Transfer to Third Parties</h4>
+      <p>
+        Your personal information may only be disclosed by us in cases where it
+        is necessary for: (a) compliance with legal requirements or court orders
+        in relation to us; (b) the protection of our rights or property; (c)
+        taking urgent measures to ensure the personal safety of our employees or
+        service consumers provided by them, as well as ensuring public safety.
+        Personal information obtained in our possession during registration may
+        be transferred to third parties and individuals who are in partnership
+        with us to improve the quality of services. This information will not be
+        used for any other purpose than those mentioned above. The email address
+        provided by you during registration may be used to send you messages or
+        notifications about changes related to your application, as well as
+        mailing notifications about events and changes happening in the company,
+        important information about new products and services, etc. The option
+        to unsubscribe from subscribing to these email notifications is
+        provided.
+      </p>
+      <h4>Use of Cookies</h4>
+      <p>
+        When a user visits the website, a cookie is stored on their computer (if
+        the user allows the acceptance of such files). If the user has
+        previously visited this website, the cookie is read from the computer.
+        One of the purposes of using cookies is associated with facilitating the
+        collection of visit statistics. This information helps determine which
+        information sent to customers may be of the greatest interest to them.
+        Data collection is done in an aggregated form and is never associated
+        with personal user information.
+      </p>
+      <p>
+        Third parties, including Google, display advertisements for our company
+        on Internet sites. Third parties, including Google, use cookies to
+        display advertisements based on the previous visits of users to our
+        websites and interests in web browsers. Users can prohibit Google from
+        using cookies. To do this, you need to visit a special Google page at
+        this address: http://www.google.com/privacy/ads/
+      </p>
+      <h4>Changes in the Privacy Policy Statement</h4>
+      <p>
+        The privacy policy statement is intended to be periodically updated. In
+        this case, the date of the previous update, indicated at the beginning
+        of the document, will change. Notices of changes in this statement will
+        be posted prominently on our websites.
+      </p>
+      <p>
+        Using our application, you agree to receive SMS notifications with
+        advertising related to application updates, as well as promotional
+        offers and news about upcoming events.
+      </p>
+      <h4>
+        <span role="img" aria-label="Heart">❤️</span> Thank you for your
+        interest in our system!
+      </h4>
+    </div>
+  </div>
+</div>
+
+      <div class="modal-overlay">
+  <div class="privacy">
+    <div class="privacy__header">
+      <div class="privacy__header-text">Terms of Service</div>
+    </div>
+    <div class="privacy__content">
+      <p>
+        Welcome to our website/application for sports exercises! Before you
+        start using our resource, please carefully read our Terms of Service.
+      </p>
+      <h4>Search and Categories:</h4>
+      <p>
+        Our service allows you to search for exercises by categories or
+        keywords. The convenient filter enables you to quickly find the
+        exercises you need.
+      </p>
+      <h4>Favorite Exercises List:</h4>
+      <p>
+        You can create your own list of favorite exercises for easy access. Add
+        your favorite exercises and plan your workouts according to your
+        schedule.
+      </p>
+      <h4>Newsletter Subscription:</h4>
+      <p>
+        Subscribe to our newsletter and receive updates on new exercises,
+        helpful tips, and workout plans. Stay informed about all the latest
+        events!
+      </p>
+      <h4>Ratings and Comments:</h4>
+      <p>
+        Share your thoughts! Add ratings and comments to exercises so that other
+        users can find the best workouts.
+      </p>
+      <h4>Motivational Quotes:</h4>
+      <p>
+        On our website, you will find a section with motivational quotes that
+        will inspire you to achieve new heights in sports and life in general.
+      </p>
+      <h4>
+        <span role="img" aria-label="Heart">❤️</span> Thank you for your
+        interest in our system!
+      </h4>
+    </div>
+  </div>
+</div>
+
+    </footer>
+
+    <!-- <div class="ex-backdrop is-open">
+  <div class="ex-modal">
+    <button class="ex-close-btn">
+      <svg class="ex-close-btn-icon" width="24" height="24" aria-label="close icon">
+        <use href="../images/sprite.svg#icon-close"></use>
+      </svg>
+    </button>
+    <div class="exercise-gif">
+      <img src="" class="gif-ex" width="295" height="258" alt="show exercise" />
+    </div>
+    <div class="ex-content-container">
+      <h2 class="exercise-name">Air bake</h2>
+      <p class="ex-current-rating">4.0</p>
+      <ul class="ex-stars-list">
+        <li>
+          <svg class="ex-rate-icon" width="18" height="18" aria-label="rating icon">
+            <use href="../images/sprite.svg#icon-Star-1"></use>
+          </svg>
+        </li>
+        <li>
+          <svg class="ex-rate-icon" width="18" height="18" aria-label="rating icon">
+            <use href="../images/sprite.svg#icon-Star-1"></use>
+          </svg>
+        </li>
+        <li>
+          <svg class="ex-rate-icon" width="18" height="18" aria-label="rating icon">
+            <use href="../images/sprite.svg#icon-Star-1"></use>
+          </svg>
+        </li>
+        <li>
+          <svg class="ex-rate-icon" width="18" height="18" aria-label="rating icon">
+            <use href="../images/sprite.svg#icon-Star-1"></use>
+          </svg>
+        </li>
+        <li>
+          <svg class="ex-rate-icon" width="18" height="18" aria-label="rating icon">
+            <use href="../images/sprite.svg#icon-Star-1"></use>
+          </svg>
+        </li>
+      </ul>
+
+      <hr class="decorate-line" />
+
+      <div class="ex-information">
+        <div class="ex-block">
+          <span class="ex-value">Targer</span>
+          <span class="ex-label">Abs</span>
+        </div>
+        <div class="ex-block">
+          <span class="ex-value">Body part</span>
+          <span class="ex-label">Waist</span>
+        </div>
+        <div class="ex-block">
+          <span class="ex-value">Equipment</span>
+          <span class="ex-label">Body weight</span>
+        </div>
+        <div class="ex-block">
+          <span class="ex-value">Popular</span>
+          <span class="ex-label">150</span>
+        </div>
+        <div class="ex-block">
+          <span class="ex-value">Burned Calories</span>
+          <span class="ex-label">323/ 3min</span>
+        </div>
+      </div>
+
+      <hr class="decorate-line" />
+
+      <p class="ex-description">
+        This refers to your core muscles, which include the rectus abdominis,
+        obliques, and transverse abdominis. They're essential for maintaining
+        posture, stability, and generating force in many movements. Exercises
+        that target the abs include crunches, leg raises, and planks.
+      </p>
+
+      <div class="ex-buttons-container">
+        <button class="ex-add-favorities">
+          Add to favorities
+          <svg class="heart-svg" width="18" height="18" aria-label="favorites icon">
+            <use href="../images/sprite.svg#icon-heart"></use>
+          </svg>
+        </button>
+
+        <button class="ex-rating-button">Give a rating</button>
+      </div>
+    </div>
+  </div>
+</div> -->
+
+    
+  </body>
+</html>
