@@ -20,10 +20,10 @@
     />
     
     
-    <script type="module" crossorigin src="/fitnes-app/assets/vendor-cd480503.js"></script>
-    <script type="module" crossorigin src="/fitnes-app/assets/ratingModal-8b62fb21.js"></script>
+    <script type="module" crossorigin src="/fitnes-app/assets/vendor-9a5feb6b.js"></script>
+    <script type="module" crossorigin src="/fitnes-app/assets/cardModal-2993339d.js"></script>
     <link rel="stylesheet" href="/fitnes-app/assets/vendor-db400b5b.css">
-    <link rel="stylesheet" href="/fitnes-app/assets/ratingModal-4b6138b4.css">
+    <link rel="stylesheet" href="/fitnes-app/assets/cardModal-508aac2c.css">
   </head>
   <body>
     <header>
@@ -45,7 +45,7 @@
     <ul class="social-media-list">
       <li>
         <div class="togle-container">
-          <input type="checkbox" class="theme-toggle" id="theme-toggle">
+          <input type="checkbox" class="theme-toggle" id="theme-toggle" />
           <label for="theme-toggle"></label>
         </div>
       </li>
@@ -97,7 +97,7 @@
     <div class="mobile-menu-container">
       <a class="mobile-menu-logo" href="./index.html">energy.flow</a>
       <button class="burger-menu-close" type="button">
-        <svg class="close-icon" width="28" height="28">
+        <svg class="close-icon" width="25" height="25">
           <use href="/fitnes-app/assets/sprite-31c6263f.svg#icon-close"></use>
         </svg>
       </button>
@@ -114,7 +114,7 @@
       </ul>
     </nav>
     <div class="togle-container">
-      <input type="checkbox" class="theme-toggle" id="mobile-theme-toggle">
+      <input type="checkbox" class="theme-toggle" id="mobile-theme-toggle" />
       <label for="mobile-theme-toggle"></label>
     </div>
     <ul class="mobile-social-media-list">
@@ -124,7 +124,7 @@
           href="https://www.facebook.com/goITclub/"
           target="_blank"
         >
-          <svg class="social-media-icon" width="28" height="28">
+          <svg class="social-media-icon" width="25" height="25">
             <use href="/fitnes-app/assets/sprite-31c6263f.svg#icon-facebook"></use>
           </svg>
         </a>
@@ -135,7 +135,7 @@
           href="https://www.instagram.com/goitclub/"
           target="_blank"
         >
-          <svg class="social-media-icon" width="28" height="28">
+          <svg class="social-media-icon" width="25" height="25">
             <use href="/fitnes-app/assets/sprite-31c6263f.svg#icon-instagram"></use>
           </svg>
         </a>
@@ -254,109 +254,25 @@
       <div class="pagination-exercises-box"></div>
       <ul class="cards-workout-list is-hidden"></ul>
       <div class="pagination-cards-workout-box"></div>
+      <p class="search-info-message is-hidden">
+        Unfortunately,
+        <span class="search-info-message-accent-color">no results</span> were
+        found. You may want to consider other search options to find the
+        exercise you are looking for. Our range is wide and you have the
+        opportunity to find more options that suit your needs.
+      </p>
     </div>
   </div>
 </section>
 
-      <!-- <section class="exercises-page-section section">
-  <div class="container"> -->
-<!-- <div class="section-exercises-title">
-      <h2 class="exercises-title">Exercises</h2>
-      <h2 class="exercise-title visually-hidden">/</h2>
-      <h2 class="exercises-subtitle"></h2>
-    </div>
-
-    <div class="section-exercises-filters-search">
-      <ul class="list-filters">
-        <li class="list-filters-item">
-          <button class="btn-filter current-btn">Muscles</button>
-        </li>
-        <li class="list-filters-item">
-          <button class="btn-filter">Body parts</button>
-        </li>
-        <li class="list-filters-item">
-          <button class="btn-filter">Equipment</button>
-        </li>
-      </ul> -->
-
-<!-- <form class="form-search-exercises visually-hidden">
-                <div class="input-svg"><input
-                    type="text"
-                    class="form-search-exercises-input"
-                    name="search"
-                    autocomplete="on"
-                    placeholder="Search"
-                />
-                    <svg
-                    class="form-search-exercises-icon"
-                    width="18"
-                    height="18">
-                    <use href="../images/sprite.svg#icon-search"></use>
-                    </svg>
-                </div>
-                    
-            </form>
-    </div> -->
-
-<!-- <ul class="cards-workout-list">
-      <li class="card-workout-item"> -->
-<!--------- workout - rating - btn start -------->
-<!-- <div class="card-menu">
-          <div class="card-menu-box">
-            <div class="card-menu-workout">workout</div>
-            <div class="card-workout-rating">
-              <p class="card-workout-rating-text">4.0</p>
-              <svg class="card-workout-rating-icon" width="18" height="18">
-                <use href="../images/sprite.svg#icon-Star-1"></use>
-              </svg>
-            </div>
-          </div>
-
-          <button class="btn-start-workout" type="button">
-            Start
-            <svg class="card-workout-start-icon" width="16" height="16">
-              <use href="../images/sprite.svg#icon-arrow"></use>
-            </svg>
-          </button>
-        </div> -->
-
-<!--------- cards - workout - title -------->
-<!-- <div class="card-workout-title">
-          <div class="card-workout-title-icon-box">
-            <svg class="card-workout-title-icon" width="24" height="24">
-              <use href="../images/sprite.svg#icon-human"></use>
-            </svg>
-          </div>
-          <p class="card-title-text">Air bike</p>
-        </div> -->
-
-<!-- info about calories - body part - target -->
-<!-- <div class="card-workout-info">
-          <div class="card-workout-info-block">
-            <p class="card-workout-info-list">Burned calories:</p>
-            <p class="card-workout-info-data card-time">312 / 3 min</p>
-          </div>
-          <div class="card-workout-info-block">
-            <p class="card-workout-info-list">Body part:</p>
-            <p class="card-workout-info-data">Waist</p>
-          </div>
-          <div class="card-workout-info-block">
-            <p class="card-workout-info-list">Target:</p>
-            <p class="card-workout-info-data card-target">Abs</p>
-          </div>
-        </div>
-      </li>
-    </ul>
-  </div>
-</section> -->
-
       <div class="rating-modal" id="rating-contact-modal">
+<!-- <<<<<<< HEAD
     <div class="rating-modal-overlay"></div>
     <div class="rating-modal-window">
       <div class="rating-modal-header">
         <div class="rating-close-modal" id="close-modal">
           <svg class="rating-close-icon" width="28" height="28">
-            <use href="/fitnes-app/assets/sprite-31c6263f.svg#icon-close"></use>
+            <use href="./images/sprite.svg#icon-close"></use>
           </svg>
         </div>
       </div>
@@ -379,7 +295,7 @@
               />
               <label for="star1" title="text" class="rating-label">
                 <svg class="rating-star1-icon" width="20" height="19">
-                  <use href="/fitnes-app/assets/sprite-31c6263f.svg#icon-Star-1"></use>
+                  <use href="./images/sprite.svg#icon-Star-1"></use>
                 </svg>
               </label>
               <input
@@ -391,7 +307,7 @@
               />
               <label for="star2" title="text" class="rating-label">
                 <svg class="rating-star1-icon" width="20" height="19">
-                  <use href="/fitnes-app/assets/sprite-31c6263f.svg#icon-Star-1"></use>
+                  <use href="./images/sprite.svg#icon-Star-1"></use>
                 </svg>
               </label>
               <input
@@ -403,7 +319,7 @@
               />
               <label for="star3" title="text" class="rating-label">
                 <svg class="rating-star1-icon" width="20" height="19">
-                  <use href="/fitnes-app/assets/sprite-31c6263f.svg#icon-Star-1"></use>
+                  <use href="./images/sprite.svg#icon-Star-1"></use>
                 </svg>
               </label>
               <input
@@ -415,7 +331,7 @@
               />
               <label for="star4" title="text" class="rating-label">
                 <svg class="rating-star1-icon" width="20" height="19">
-                  <use href="/fitnes-app/assets/sprite-31c6263f.svg#icon-Star-1"></use>
+                  <use href="./images/sprite.svg#icon-Star-1"></use>
                 </svg>
               </label>
               <input
@@ -427,7 +343,7 @@
               />
               <label for="star5" title="text" class="rating-label">
                 <svg class="rating-star1-icon" width="20" height="19">
-                  <use href="/fitnes-app/assets/sprite-31c6263f.svg#icon-Star-1"></use>
+                  <use href="./images/sprite.svg#icon-Star-1"></use>
                 </svg>
               </label>
             </div>
@@ -447,7 +363,105 @@
         </form>
       </div>
     </div>
+  </div> -->
+  <div class="rating-modal-overlay"></div>
+  <div class="rating-modal-window">
+    <div class="rating-modal-header">
+      <div class="rating-close-modal" id="close-modal">
+        <svg class="rating-close-icon" width="28" height="28">
+          <use href="/fitnes-app/assets/sprite-31c6263f.svg#icon-close"></use>
+        </svg>
+      </div>
+    </div>
+    <div class="rating-modal-content">
+      <form
+        class="rating-form"
+        action="https://energyflow.b.goit.study/api/subscription"
+        method="post"
+      >
+        <div class="rating-txt">Rating</div>
+        <div class="rate-wrapper">
+          <div class="rating-value" id="rating-value">0.0</div>
+          <div class="rate">
+            <input
+              type="radio"
+              id="star1"
+              name="rate"
+              value="1"
+              class="rating-button"
+            />
+            <label for="star1" title="text" class="rating-label">
+              <svg class="rating-star1-icon" width="20" height="19">
+                <use href="/fitnes-app/assets/sprite-31c6263f.svg#icon-Star-1"></use>
+              </svg>
+            </label>
+            <input
+              type="radio"
+              id="star2"
+              name="rate"
+              value="2"
+              class="rating-button"
+            />
+            <label for="star2" title="text" class="rating-label">
+              <svg class="rating-star1-icon" width="20" height="19">
+                <use href="/fitnes-app/assets/sprite-31c6263f.svg#icon-Star-1"></use>
+              </svg>
+            </label>
+            <input
+              type="radio"
+              id="star3"
+              name="rate"
+              value="3"
+              class="rating-button"
+            />
+            <label for="star3" title="text" class="rating-label">
+              <svg class="rating-star1-icon" width="20" height="19">
+                <use href="/fitnes-app/assets/sprite-31c6263f.svg#icon-Star-1"></use>
+              </svg>
+            </label>
+            <input
+              type="radio"
+              id="star4"
+              name="rate"
+              value="4"
+              class="rating-button"
+            />
+            <label for="star4" title="text" class="rating-label">
+              <svg class="rating-star1-icon" width="20" height="19">
+                <use href="/fitnes-app/assets/sprite-31c6263f.svg#icon-Star-1"></use>
+              </svg>
+            </label>
+            <input
+              type="radio"
+              id="star5"
+              name="rate"
+              value="5"
+              class="rating-button"
+            />
+            <label for="star5" title="text" class="rating-label">
+              <svg class="rating-star1-icon" width="20" height="19">
+                <use href="/fitnes-app/assets/sprite-31c6263f.svg#icon-Star-1"></use>
+              </svg>
+            </label>
+          </div>
+        </div>
+        <input
+          type="email"
+          class="rating-email-field"
+          placeholder="Email"
+          required
+          pattern="^[\w\-]+(\.[\w\-]+)*@([\w\-]+\.)+[a-zA-Z]{2,7}$"
+        />
+        <textarea
+          class="rating-text-field"
+          placeholder="Your comment"
+        ></textarea>
+        <button type="submit" class="rating-send-button">Send</button>
+      </form>
+    </div>
   </div>
+</div>
+
       <section class="section info-section">
   <div class="container info-container">
     <picture>
@@ -496,6 +510,327 @@
         <use href="/fitnes-app/assets/sprite-31c6263f.svg#icon-arrow"> </use>
     </svg>
 </button>
+      <div class="ex-backdrop">
+  <div class="ex-modal">
+    <button class="ex-close-btn">
+      <svg
+        class="ex-close-btn-icon"
+        width="24"
+        height="24"
+        aria-label="close icon"
+      >
+        <use href="/fitnes-app/assets/sprite-31c6263f.svg#icon-close"></use>
+      </svg>
+    </button>
+    <div class="exercise-gif">
+      <img src="" class="gif-ex" width="295" height="258" alt="show exercise" />
+    </div>
+    <div class="ex-content-container">
+      <h2 class="exercise-name">Air bake</h2>
+      <p class="ex-current-rating">4.0</p>
+      <ul class="ex-stars-list">
+        <li>
+          <svg
+            class="ex-rate-icon"
+            width="18"
+            height="18"
+            aria-label="rating icon"
+          >
+            <use href="/fitnes-app/assets/sprite-31c6263f.svg#icon-Star-1"></use>
+          </svg>
+        </li>
+        <li>
+          <svg
+            class="ex-rate-icon"
+            width="18"
+            height="18"
+            aria-label="rating icon"
+          >
+            <use href="/fitnes-app/assets/sprite-31c6263f.svg#icon-Star-1"></use>
+          </svg>
+        </li>
+        <li>
+          <svg
+            class="ex-rate-icon"
+            width="18"
+            height="18"
+            aria-label="rating icon"
+          >
+            <use href="/fitnes-app/assets/sprite-31c6263f.svg#icon-Star-1"></use>
+          </svg>
+        </li>
+        <li>
+          <svg
+            class="ex-rate-icon"
+            width="18"
+            height="18"
+            aria-label="rating icon"
+          >
+            <use href="/fitnes-app/assets/sprite-31c6263f.svg#icon-Star-1"></use>
+          </svg>
+        </li>
+        <li>
+          <svg
+            class="ex-rate-icon"
+            width="18"
+            height="18"
+            aria-label="rating icon"
+          >
+            <use href="/fitnes-app/assets/sprite-31c6263f.svg#icon-Star-1"></use>
+          </svg>
+        </li>
+      </ul>
+
+      <hr class="decorate-line" />
+
+      <div class="ex-information">
+        <div class="ex-block">
+          <span class="ex-value">Targer</span>
+          <span class="ex-label ex-target">Abs</span>
+        </div>
+        <div class="ex-block">
+          <span class="ex-value">Body part</span>
+          <span class="ex-label ex-body-part">Waist</span>
+        </div>
+        <div class="ex-block">
+          <span class="ex-value">Equipment</span>
+          <span class="ex-label ex-equipment">Body weight</span>
+        </div>
+        <div class="ex-block">
+          <span class="ex-value">Popular</span>
+          <span class="ex-label ex-popular">150</span>
+        </div>
+        <div class="ex-block">
+          <span class="ex-value">Burned Calories</span>
+          <span class="ex-label ex-burned-calories">323/ 3min</span>
+        </div>
+
+        <hr class="decorate-line" />
+
+        <p class="ex-description">
+          This refers to your core muscles, which include the rectus abdominis,
+          obliques, and transverse abdominis. They're essential for maintaining
+          posture, stability, and generating force in many movements. Exercises
+          that target the abs include crunches, leg raises, and planks.
+        </p>
+
+        <div class="ex-buttons-container">
+          <button class="ex-add-favorities">
+            Add to favorities
+            <svg
+              class="heart-svg"
+              width="18"
+              height="18"
+              aria-label="favorites icon"
+            >
+              <use href="/fitnes-app/assets/sprite-31c6263f.svg#icon-heart"></use>
+            </svg>
+          </button>
+
+          <button class="ex-rating-button">Give a rating</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      <div class="rating-modal" id="rating-contact-modal">
+<!-- <<<<<<< HEAD
+    <div class="rating-modal-overlay"></div>
+    <div class="rating-modal-window">
+      <div class="rating-modal-header">
+        <div class="rating-close-modal" id="close-modal">
+          <svg class="rating-close-icon" width="28" height="28">
+            <use href="./images/sprite.svg#icon-close"></use>
+          </svg>
+        </div>
+      </div>
+      <div class="rating-modal-content">
+        <form
+          class="rating-form"
+          action="https://energyflow.b.goit.study/api/subscription"
+          method="post"
+        >
+          <div class="rating-txt">Rating</div>
+          <div class="rate-wrapper">
+            <div class="rating-value" id="rating-value">0.0</div>
+            <div class="rate">
+              <input
+                type="radio"
+                id="star1"
+                name="rate"
+                value="1"
+                class="rating-button"
+              />
+              <label for="star1" title="text" class="rating-label">
+                <svg class="rating-star1-icon" width="20" height="19">
+                  <use href="./images/sprite.svg#icon-Star-1"></use>
+                </svg>
+              </label>
+              <input
+                type="radio"
+                id="star2"
+                name="rate"
+                value="2"
+                class="rating-button"
+              />
+              <label for="star2" title="text" class="rating-label">
+                <svg class="rating-star1-icon" width="20" height="19">
+                  <use href="./images/sprite.svg#icon-Star-1"></use>
+                </svg>
+              </label>
+              <input
+                type="radio"
+                id="star3"
+                name="rate"
+                value="3"
+                class="rating-button"
+              />
+              <label for="star3" title="text" class="rating-label">
+                <svg class="rating-star1-icon" width="20" height="19">
+                  <use href="./images/sprite.svg#icon-Star-1"></use>
+                </svg>
+              </label>
+              <input
+                type="radio"
+                id="star4"
+                name="rate"
+                value="4"
+                class="rating-button"
+              />
+              <label for="star4" title="text" class="rating-label">
+                <svg class="rating-star1-icon" width="20" height="19">
+                  <use href="./images/sprite.svg#icon-Star-1"></use>
+                </svg>
+              </label>
+              <input
+                type="radio"
+                id="star5"
+                name="rate"
+                value="5"
+                class="rating-button"
+              />
+              <label for="star5" title="text" class="rating-label">
+                <svg class="rating-star1-icon" width="20" height="19">
+                  <use href="./images/sprite.svg#icon-Star-1"></use>
+                </svg>
+              </label>
+            </div>
+          </div>
+          <input
+            type="email"
+            class="rating-email-field"
+            placeholder="Email"
+            required
+            pattern="^[\w\-]+(\.[\w\-]+)*@([\w\-]+\.)+[a-zA-Z]{2,7}$"
+          />
+          <textarea
+            class="rating-text-field"
+            placeholder="Your comment"
+          ></textarea>
+          <button type="submit" class="rating-send-button">Send</button>
+        </form>
+      </div>
+    </div>
+  </div> -->
+  <div class="rating-modal-overlay"></div>
+  <div class="rating-modal-window">
+    <div class="rating-modal-header">
+      <div class="rating-close-modal" id="close-modal">
+        <svg class="rating-close-icon" width="28" height="28">
+          <use href="/fitnes-app/assets/sprite-31c6263f.svg#icon-close"></use>
+        </svg>
+      </div>
+    </div>
+    <div class="rating-modal-content">
+      <form
+        class="rating-form"
+        action="https://energyflow.b.goit.study/api/subscription"
+        method="post"
+      >
+        <div class="rating-txt">Rating</div>
+        <div class="rate-wrapper">
+          <div class="rating-value" id="rating-value">0.0</div>
+          <div class="rate">
+            <input
+              type="radio"
+              id="star1"
+              name="rate"
+              value="1"
+              class="rating-button"
+            />
+            <label for="star1" title="text" class="rating-label">
+              <svg class="rating-star1-icon" width="20" height="19">
+                <use href="/fitnes-app/assets/sprite-31c6263f.svg#icon-Star-1"></use>
+              </svg>
+            </label>
+            <input
+              type="radio"
+              id="star2"
+              name="rate"
+              value="2"
+              class="rating-button"
+            />
+            <label for="star2" title="text" class="rating-label">
+              <svg class="rating-star1-icon" width="20" height="19">
+                <use href="/fitnes-app/assets/sprite-31c6263f.svg#icon-Star-1"></use>
+              </svg>
+            </label>
+            <input
+              type="radio"
+              id="star3"
+              name="rate"
+              value="3"
+              class="rating-button"
+            />
+            <label for="star3" title="text" class="rating-label">
+              <svg class="rating-star1-icon" width="20" height="19">
+                <use href="/fitnes-app/assets/sprite-31c6263f.svg#icon-Star-1"></use>
+              </svg>
+            </label>
+            <input
+              type="radio"
+              id="star4"
+              name="rate"
+              value="4"
+              class="rating-button"
+            />
+            <label for="star4" title="text" class="rating-label">
+              <svg class="rating-star1-icon" width="20" height="19">
+                <use href="/fitnes-app/assets/sprite-31c6263f.svg#icon-Star-1"></use>
+              </svg>
+            </label>
+            <input
+              type="radio"
+              id="star5"
+              name="rate"
+              value="5"
+              class="rating-button"
+            />
+            <label for="star5" title="text" class="rating-label">
+              <svg class="rating-star1-icon" width="20" height="19">
+                <use href="/fitnes-app/assets/sprite-31c6263f.svg#icon-Star-1"></use>
+              </svg>
+            </label>
+          </div>
+        </div>
+        <input
+          type="email"
+          class="rating-email-field"
+          placeholder="Email"
+          required
+          pattern="^[\w\-]+(\.[\w\-]+)*@([\w\-]+\.)+[a-zA-Z]{2,7}$"
+        />
+        <textarea
+          class="rating-text-field"
+          placeholder="Your comment"
+        ></textarea>
+        <button type="submit" class="rating-send-button">Send</button>
+      </form>
+    </div>
+  </div>
+</div>
+
     </main>
 
     <footer>
@@ -700,11 +1035,16 @@
 
     </footer>
 
-    <!-- <div class="ex-backdrop is-open">
+    <!-- <div class="ex-backdrop">
   <div class="ex-modal">
     <button class="ex-close-btn">
-      <svg class="ex-close-btn-icon" width="24" height="24" aria-label="close icon">
-        <use href="../images/sprite.svg#icon-close"></use>
+      <svg
+        class="ex-close-btn-icon"
+        width="24"
+        height="24"
+        aria-label="close icon"
+      >
+        <use href="./images/sprite.svg#icon-close"></use>
       </svg>
     </button>
     <div class="exercise-gif">
@@ -715,28 +1055,53 @@
       <p class="ex-current-rating">4.0</p>
       <ul class="ex-stars-list">
         <li>
-          <svg class="ex-rate-icon" width="18" height="18" aria-label="rating icon">
-            <use href="../images/sprite.svg#icon-Star-1"></use>
+          <svg
+            class="ex-rate-icon"
+            width="18"
+            height="18"
+            aria-label="rating icon"
+          >
+            <use href="./images/sprite.svg#icon-Star-1"></use>
           </svg>
         </li>
         <li>
-          <svg class="ex-rate-icon" width="18" height="18" aria-label="rating icon">
-            <use href="../images/sprite.svg#icon-Star-1"></use>
+          <svg
+            class="ex-rate-icon"
+            width="18"
+            height="18"
+            aria-label="rating icon"
+          >
+            <use href="./images/sprite.svg#icon-Star-1"></use>
           </svg>
         </li>
         <li>
-          <svg class="ex-rate-icon" width="18" height="18" aria-label="rating icon">
-            <use href="../images/sprite.svg#icon-Star-1"></use>
+          <svg
+            class="ex-rate-icon"
+            width="18"
+            height="18"
+            aria-label="rating icon"
+          >
+            <use href="./images/sprite.svg#icon-Star-1"></use>
           </svg>
         </li>
         <li>
-          <svg class="ex-rate-icon" width="18" height="18" aria-label="rating icon">
-            <use href="../images/sprite.svg#icon-Star-1"></use>
+          <svg
+            class="ex-rate-icon"
+            width="18"
+            height="18"
+            aria-label="rating icon"
+          >
+            <use href="./images/sprite.svg#icon-Star-1"></use>
           </svg>
         </li>
         <li>
-          <svg class="ex-rate-icon" width="18" height="18" aria-label="rating icon">
-            <use href="../images/sprite.svg#icon-Star-1"></use>
+          <svg
+            class="ex-rate-icon"
+            width="18"
+            height="18"
+            aria-label="rating icon"
+          >
+            <use href="./images/sprite.svg#icon-Star-1"></use>
           </svg>
         </li>
       </ul>
@@ -746,48 +1111,54 @@
       <div class="ex-information">
         <div class="ex-block">
           <span class="ex-value">Targer</span>
-          <span class="ex-label">Abs</span>
+          <span class="ex-label ex-target">Abs</span>
         </div>
         <div class="ex-block">
           <span class="ex-value">Body part</span>
-          <span class="ex-label">Waist</span>
+          <span class="ex-label ex-body-part">Waist</span>
         </div>
         <div class="ex-block">
           <span class="ex-value">Equipment</span>
-          <span class="ex-label">Body weight</span>
+          <span class="ex-label ex-equipment">Body weight</span>
         </div>
         <div class="ex-block">
           <span class="ex-value">Popular</span>
-          <span class="ex-label">150</span>
+          <span class="ex-label ex-popular">150</span>
         </div>
         <div class="ex-block">
           <span class="ex-value">Burned Calories</span>
-          <span class="ex-label">323/ 3min</span>
+          <span class="ex-label ex-burned-calories">323/ 3min</span>
         </div>
-      </div>
 
-      <hr class="decorate-line" />
+        <hr class="decorate-line" />
 
-      <p class="ex-description">
-        This refers to your core muscles, which include the rectus abdominis,
-        obliques, and transverse abdominis. They're essential for maintaining
-        posture, stability, and generating force in many movements. Exercises
-        that target the abs include crunches, leg raises, and planks.
-      </p>
+        <p class="ex-description">
+          This refers to your core muscles, which include the rectus abdominis,
+          obliques, and transverse abdominis. They're essential for maintaining
+          posture, stability, and generating force in many movements. Exercises
+          that target the abs include crunches, leg raises, and planks.
+        </p>
 
-      <div class="ex-buttons-container">
-        <button class="ex-add-favorities">
-          Add to favorities
-          <svg class="heart-svg" width="18" height="18" aria-label="favorites icon">
-            <use href="../images/sprite.svg#icon-heart"></use>
-          </svg>
-        </button>
+        <div class="ex-buttons-container">
+          <button class="ex-add-favorities">
+            Add to favorities
+            <svg
+              class="heart-svg"
+              width="18"
+              height="18"
+              aria-label="favorites icon"
+            >
+              <use href="./images/sprite.svg#icon-heart"></use>
+            </svg>
+          </button>
 
-        <button class="ex-rating-button">Give a rating</button>
+          <button class="ex-rating-button">Give a rating</button>
+        </div>
       </div>
     </div>
   </div>
-</div> -->
+</div>
+ -->
 
     
   </body>
